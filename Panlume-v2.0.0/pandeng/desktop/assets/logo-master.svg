@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Panlume 盘灯应用图标</title>
+  <desc id="desc">深墨蓝圆角底座上的暖黄色灯罩，灯罩内有三阶数据柱，下方为浅盘底座。图形不含文字。</desc>
+  <g id="app-tile" fill="#17202A">
+    <rect x="64" y="64" width="896" height="896" rx="200" ry="200"/>
+  </g>
+  <g id="lamp" fill="#F2B84B">
+    <rect id="lamp-cap" x="464" y="192" width="96" height="48" rx="24" ry="24"/>
+    <path id="lamp-body" d="M288 692V452C288 306 386 240 512 240S736 306 736 452V692Q736 716 712 716H312Q288 716 288 692Z"/>
+    <rect id="lamp-connector" x="472" y="716" width="80" height="44"/>
+    <path id="shallow-pan" d="M248 760Q512 822 776 760Q748 848 512 864Q276 848 248 760Z"/>
+  </g>
+  <g id="data-negative" fill="#17202A">
+    <rect id="data-bar-left" x="366" y="488" width="60" height="168" rx="16" ry="16"/>
+    <rect id="data-bar-center" x="482" y="392" width="60" height="264" rx="16" ry="16"/>
+    <rect id="data-bar-right" x="598" y="456" width="60" height="200" rx="16" ry="16"/>
+    <rect id="data-baseline" x="346" y="644" width="332" height="32" rx="16" ry="16"/>
+  </g>
+</svg>

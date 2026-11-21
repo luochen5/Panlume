@@ -1,0 +1,7 @@
+﻿stock_code,trade_date,open,high,low,close,volume,source,adjustment,confirmed
+600000,2026-01-01,17.89,18.19,17.84,18.14,323564,simulator,qfq,True
+600000,2026-01-02,18.14,18.19,17.84,17.89,556405,simulator,qfq,True
+600000,2026-01-05,17.89,18.16,17.84,18.11,671889,simulator,qfq,True
+000001,2026-01-01,25.01,25.22,24.96,25.17,606430,simulator,qfq,True
+000001,2026-01-02,25.17,25.22,24.99,25.04,462638,simulator,qfq,True
+000001,2026-01-05,25.04,25.09,24.94,24.99,713044,simulator,qfq,True

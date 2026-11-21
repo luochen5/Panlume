@@ -1,0 +1,168 @@
+{
+  "format": "pandeng.market-feed.v1",
+  "source": "offline_contract_fixture",
+  "minute_bars": [
+    {
+      "stock_code": "600000",
+      "bar_time": "2026-01-12T09:31:00+08:00",
+      "open": 10.0,
+      "high": 10.03,
+      "low": 9.98,
+      "close": 10.01,
+      "volume": 1000,
+      "adjustment": "none",
+      "confirmed": true
+    },
+    {
+      "stock_code": "600000",
+      "bar_time": "2026-01-12T09:32:00+08:00",
+      "open": 10.01,
+      "high": 10.04,
+      "low": 9.99,
+      "close": 10.02,
+      "volume": 1100,
+      "adjustment": "none",
+      "confirmed": true
+    },
+    {
+      "stock_code": "600000",
+      "bar_time": "2026-01-12T09:33:00+08:00",
+      "open": 10.02,
+      "high": 10.05,
+      "low": 10.0,
+      "close": 10.03,
+      "volume": 1200,
+      "adjustment": "none",
+      "confirmed": true
+    },
+    {
+      "stock_code": "600000",
+      "bar_time": "2026-01-12T09:34:00+08:00",
+      "open": 10.03,
+      "high": 10.06,
+      "low": 10.01,
+      "close": 10.04,
+      "volume": 1300,
+      "adjustment": "none",
+      "confirmed": true
+    },
+    {
+      "stock_code": "600000",
+      "bar_time": "2026-01-12T09:35:00+08:00",
+      "open": 10.04,
+      "high": 10.07,
+      "low": 10.02,
+      "close": 10.05,
+      "volume": 1400,
+      "adjustment": "none",
+      "confirmed": true
+    },
+    {
+      "stock_code": "600000",
+      "bar_time": "2026-01-12T09:36:00+08:00",
+      "open": 10.05,
+      "high": 10.08,
+      "low": 10.03,
+      "close": 10.06,
+      "volume": 1500,
+      "adjustment": "none",
+      "confirmed": true
+    },
+    {
+      "stock_code": "000001",
+      "bar_time": "2026-01-12T09:31:00+08:00",
+      "open": 20.0,
+      "high": 20.04,
+      "low": 19.98,
+      "close": 20.02,
+      "volume": 1500,
+      "adjustment": "none",
+      "confirmed": true
+    },
+    {
+      "stock_code": "000001",
+      "bar_time": "2026-01-12T09:32:00+08:00",
+      "open": 20.02,
+      "high": 20.06,
+      "low": 20.0,
+      "close": 20.04,
+      "volume": 1600,
+      "adjustment": "none",
+      "confirmed": true
+    },
+    {
+      "stock_code": "000001",
+      "bar_time": "2026-01-12T09:33:00+08:00",
+      "open": 20.04,
+      "high": 20.08,
+      "low": 20.02,
+      "close": 20.06,
+      "volume": 1700,
+      "adjustment": "none",
+      "confirmed": true
+    },
+    {
+      "stock_code": "000001",
+      "bar_time": "2026-01-12T09:34:00+08:00",
+      "open": 20.06,
+      "high": 20.1,
+      "low": 20.04,
+      "close": 20.08,
+      "volume": 1800,
+      "adjustment": "none",
+      "confirmed": true
+    },
+    {
+      "stock_code": "000001",
+      "bar_time": "2026-01-12T09:35:00+08:00",
+      "open": 20.08,
+      "high": 20.12,
+      "low": 20.06,
+      "close": 20.1,
+      "volume": 1900,
+      "adjustment": "none",
+      "confirmed": true
+    },
+    {
+      "stock_code": "000001",
+      "bar_time": "2026-01-12T09:36:00+08:00",
+      "open": 20.1,
+      "high": 20.14,
+      "low": 20.08,
+      "close": 20.12,
+      "volume": 2000,
+      "adjustment": "none",
+      "confirmed": true
+    }
+  ],
+  "daily_qfq": [
+    {
+      "stock_code": "600000",
+      "trade_date": "2026-01-12",
+      "open": 10.0,
+      "high": 10.2,
+      "low": 9.9,
+      "close": 10.1,
+      "volume": 100000,
+      "adjustment": "qfq",
+      "confirmed": true
+    },
+    {
+      "stock_code": "000001",
+      "trade_date": "2026-01-12",
+      "open": 20.0,
+      "high": 20.2,
+      "low": 19.9,
+      "close": 20.1,
+      "volume": 200000,
+      "adjustment": "qfq",
+      "confirmed": true
+    }
+  ],
+  "trading_calendar": [
+    {
+      "trade_date": "2026-01-12",
+      "is_open": true
+    }
+  ]
+}

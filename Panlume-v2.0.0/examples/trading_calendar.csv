@@ -1,0 +1,6 @@
+﻿trade_date,is_open,source
+2026-01-01,True,simulator
+2026-01-02,True,simulator
+2026-01-03,False,simulator
+2026-01-04,False,simulator
+2026-01-05,True,simulator

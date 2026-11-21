@@ -1,0 +1,62 @@
+{
+  "format": "pandeng.tushare-fixture.v1",
+  "description": "人工编写的虚拟 Tushare 响应，只用于离线契约测试；价格、数量和 request_id 均非真实行情。",
+  "source": "tushare_fixture_offline",
+  "confirmed_through": "2026-01-12T09:32:00+08:00",
+  "daily_adjustment": "qfq",
+  "daily_confirmed": false,
+  "minute_response": {
+    "request_id": "fixture-minute-virtual-001",
+    "code": 0,
+    "msg": null,
+    "data": {
+      "fields": [
+        "ts_code",
+        "trade_time",
+        "open",
+        "high",
+        "low",
+        "close",
+        "vol",
+        "amount"
+      ],
+      "items": [
+        ["600000.SH", "2026-01-12 09:30:00", 10.0, 10.1, 9.99, 10.05, 5000, 50200.0],
+        ["600000.SH", "2026-01-12 09:31:00", 10.05, 10.12, 10.02, 10.1, 12000, 121100.0],
+        ["600000.SH", "2026-01-12 09:32:00", 10.1, 10.18, 10.08, 10.15, 8000, 81200.0],
+        ["000001.SZ", "2026-01-12 09:30:00", 12.0, 12.08, 11.98, 12.04, 7000, 84250.0],
+        ["000001.SZ", "2026-01-12 09:31:00", 12.04, 12.12, 12.01, 12.1, 15000, 181450.0],
+        ["000001.SZ", "2026-01-12 09:32:00", 12.1, 12.2, 12.08, 12.16, 9000, 109380.0]
+      ]
+    }
+  },
+  "daily_qfq_response": {
+    "request_id": "fixture-daily-virtual-001",
+    "code": 0,
+    "msg": null,
+    "data": {
+      "fields": [
+        "ts_code",
+        "trade_date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "vol"
+      ],
+      "items": [
+        ["600000.SH", "20260112", 10.02, 10.3, 9.98, 10.22, 12345.5],
+        ["000001.SZ", "20260112", 12.01, 12.32, 11.96, 12.25, 23456]
+      ]
+    }
+  },
+  "calendar_response": {
+    "request_id": "fixture-calendar-virtual-001",
+    "code": 0,
+    "msg": null,
+    "data": {
+      "fields": ["exchange", "cal_date", "is_open", "pretrade_date"],
+      "items": [["SSE", "20260112", "1", "20260109"]]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+﻿stock_code,bar_time,open,high,low,close,volume,source,adjustment,confirmed
+600000,2026-01-05T09:31:00+08:00,18.21,18.23,18.1,18.12,7550,simulator,none,True
+600000,2026-01-05T09:33:00+08:00,17.94,17.96,17.91,17.93,4371,simulator,none,True
+000001,2026-01-05T09:31:00+08:00,24.94,24.96,24.79,24.81,7339,simulator,none,True
+000001,2026-01-05T09:32:00+08:00,24.81,25.26,24.79,25.24,2611,simulator,none,True
+000001,2026-01-05T09:33:00+08:00,25.24,25.26,25.15,25.17,1540,simulator,none,True

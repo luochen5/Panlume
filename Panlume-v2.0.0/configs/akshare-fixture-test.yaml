@@ -1,0 +1,36 @@
+# C2 离线验收：已保存的东方财富收盘后公开分钟响应；不联网，独立数据库。
+monitor:
+  interval_seconds: 300
+  fetch_timeout_seconds: 20
+  close_timeout_seconds: 45
+
+rules:
+  rapid_move_pct: 1.0
+  volume_ratio_threshold: 1.5
+  breakout_lookback_minutes: 20
+  normal_cooldown_seconds: 1800
+  high_priority_repeat_seconds: 900
+
+summary:
+  queue_capacity: 8
+  shutdown_timeout_seconds: 10
+  max_chars: 400
+
+storage:
+  database: runtime/akshare-fixture-test.db
+
+models:
+  ollama:
+    enabled: false
+    base_url: http://127.0.0.1:11434
+    model: deepseek-r1:14b
+    timeout_seconds: 60
+  cloud:
+    enabled: false
+    base_url: ""
+    model: ""
+    event_whitelist: []
+
+watchlist:
+  - code: "000001"
+    name: "东方财富收盘后离线样本"
